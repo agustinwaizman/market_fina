@@ -15,7 +15,7 @@ public class ProductService {
     private ProductRepository productRepository;
 
     public List<Product> getAll(){
-        return productRepository.getAll();
+        return this.productRepository.getAll();
     }
 
     public Optional<Product> getProduct(int productId){
